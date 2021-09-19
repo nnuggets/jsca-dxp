@@ -1,6 +1,11 @@
 # jsca-dxp
 DamExchangeProtocol JavaScript Implementation
 
+DamExchangeProtocol (DXP) is an old protocol (honestly not well-designed) that enables two Draughts computer programs to play one or more draughts games against each other.
+While working on https://games.jusoft.cm/, I wanted to test my javascript draughts AI with some very good draughts programs existing that were implementing the DXP protocol to communicate with other programs. I found no javascript library implementing this small protocol and I decided to start one based on this documentation: http://www.mesander.nl/damexchange/edxpmain.htm
+
+Example of Code:
+
 ```javascript
 
 const dxp = require('jsca-dxp');
